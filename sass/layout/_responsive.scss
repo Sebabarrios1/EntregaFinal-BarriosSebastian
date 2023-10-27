@@ -1,0 +1,161 @@
+@media(width>= 500px){
+
+    #carouselExample{
+
+        width: 400px;
+       
+    }
+    .sectionprod img{
+        width: 250px;
+        border-radius: 10%;
+    }
+
+    .nosotros img{
+        width:325px;
+    }
+    
+
+    .procesos img{
+      width: 350px;
+      border-radius: 30px;
+    }
+
+
+/* html bowl*/
+.sect_bowl{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+    
+
+
+.sect_bowl div{
+    margin: 10px;
+
+
+}
+
+/*html platos*/
+.sect_plato div{
+    margin: 10px;
+}
+
+.sect_plato{
+    display: flex;
+    flex-direction: row;
+}
+}
+
+@media(width>= 800px){
+
+
+    .nav_inicio{
+        margin-top: 20px;
+        margin-bottom: 70px;
+        margin-right: 10px;
+        height: 1vh;
+    }
+
+    .cont_logo h1{
+        font-size: larger;
+    }
+
+    .cont_logo h2{
+        font-size: large;
+    }
+ 
+    .nav_inicio h2{
+        font-size: large;
+    }
+
+    .sectionprod img{
+        width: 350px;
+        border-radius: 10%;
+      
+    }
+
+    .sectionprod div{
+        padding: 20px 10px;
+    }
+
+    .nosotros img{
+        width: 525px;;
+    }
+    
+    .procesos img{
+      width: 550px;
+      border-radius: 30px;
+    }
+
+    footer{
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 100%;
+    }
+
+/* html productos*/
+    
+
+
+    .html_prod{
+        display:flex;
+        flex-direction:row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        margin-top: 70px;
+        
+    }
+    
+    #header_prod{
+        height: 250px;
+        
+     }
+
+
+.titulos_prod{
+    display: none;
+}
+
+/* html envios*/
+.contenedor_envio{
+    display:flex;
+    flex-direction:row;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.contenedor_envio div{
+    display:flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-content: space-between;
+   
+    
+}
+
+/* html bowl*/
+
+
+.sect_bowl div{
+    margin: 20px;
+}
+
+.sect_bowl img{
+    width: 400px;
+}
+
+/*html platos*/
+
+.sect_plato div{
+    margin: 20px;
+}
+
+.sect_plato img{
+    width: 400px;
+}
+
+}

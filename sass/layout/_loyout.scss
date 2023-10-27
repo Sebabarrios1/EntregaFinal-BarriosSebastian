@@ -1,0 +1,45 @@
+@font-face {
+    font-family:"ADLaM_Display" ;
+    src: url(../assets/tipografia/ADLaMDisplay-Regular.ttf);
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+a{
+    text-decoration: none;
+    color: black;
+
+
+}
+
+body{
+    box-sizing: border-box;
+    font-family:"ADLaM_Display" ;
+    background-image: url(../assets/imagenes/fondo.png) ;
+    background-size:contain;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: auto auto auto;
+    justify-content: center;
+    grid-template-areas:
+    "header"
+    "div"
+    "footer";  
+}
+
+h1{
+    font-size:large;
+}
+
+h2{
+    font-size: small;
+}
+
+
+
+
