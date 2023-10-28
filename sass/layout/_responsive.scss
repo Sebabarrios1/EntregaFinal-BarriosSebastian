@@ -20,6 +20,11 @@
       border-radius: 30px;
     }
 
+  
+    footer div{
+        padding-bottom: 10px;
+    }
+
 
 /* html bowl*/
 .sect_bowl{
@@ -81,7 +86,7 @@
     }
 
     .nosotros img{
-        width: 525px;;
+        width: 525px;
     }
     
     .procesos img{
@@ -92,8 +97,13 @@
     footer{
         grid-template-columns: 50% 50%;
         grid-template-rows: 100%;
+        
     }
 
+    footer div{
+        padding-bottom: 10px;
+        padding-top: 10px;
+    }
 /* html productos*/
     
 
@@ -135,6 +145,14 @@
     justify-content: space-between;
    
     
+}
+
+#envios{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
 }
 
 /* html bowl*/

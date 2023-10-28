@@ -95,10 +95,11 @@ footer div {
   flex-direction: row;
   align-items: center;
   gap: 3px;
+  padding: 10px;
 }
 
 footer img {
-  width: 60px;
+  width: 35px;
 }
 
 footer h3 {
@@ -142,7 +143,6 @@ section {
   justify-items: center;
   align-items: center;
   background-color: #003cff;
-  margin: 0px 5%;
   font-size: small;
 }
 
@@ -226,10 +226,12 @@ section {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
 }
 
 .botones {
   width: auto;
+  height: 25px;
 }
 
 /* html bowls*/
@@ -307,6 +309,9 @@ section {
     width: 350px;
     border-radius: 30px;
   }
+  footer div {
+    padding-bottom: 10px;
+  }
   /* html bowl*/
   .sect_bowl {
     display: flex;
@@ -358,6 +363,10 @@ section {
     grid-template-columns: 50% 50%;
     grid-template-rows: 100%;
   }
+  footer div {
+    padding-bottom: 10px;
+    padding-top: 10px;
+  }
   /* html productos*/
   .html_prod {
     display: flex;
@@ -387,6 +396,12 @@ section {
     flex-wrap: wrap;
     justify-content: center;
     justify-content: space-between;
+  }
+  #envios {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
   /* html bowl*/
   .sect_bowl div {

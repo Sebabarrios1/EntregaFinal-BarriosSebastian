@@ -36,7 +36,7 @@ section{
     justify-items: center;
     align-items: center;
     background-color: #003cff;
-    margin: 0px 5%;
+   
     font-size: small;
     
 }
@@ -124,10 +124,12 @@ section{
     display: flex;
     justify-content:center;
     align-items: center;
+    flex-direction: column;
 
 }
 .botones{
     width: auto;
+    height: 25px;
 }
 /* html bowls*/
 
